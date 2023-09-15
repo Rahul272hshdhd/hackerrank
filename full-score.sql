@@ -1,4 +1,4 @@
-SELECT h.hacker_id, h.name
+SELECT h.hacker_id, h.name Rahul 
   FROM Submissions s
   JOIN Challenges c
     ON c.challenge_id = s.challenge_id
